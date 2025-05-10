@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f5f0e1;
+}
+.hero-section{
+    background-image: url(https://static.vecteezy.com/system/resources/previews/037/245/092/non_2x/ai-generated-black-tea-advertisment-background-with-copy-space-free-photo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    height: 400px;
+}
+
+.btn:hover{
+ background-color: #56b13b;
+
+}
+.tagline {
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 0.5rem;
+}
+.contaner{
+    position: relative;
+}
+.content{
+    position: absolute;
+    left: 140px;
+    top: 100px;
+    display: inline-block;
+}
+.custom-navbar {
+  background-color: #3d7a2a;
+}
+.navbar .nav-link:hover {
+  color: #d4f5c7 !important;
+}
+#about-us{
+   background: linear-gradient(45deg, #3d7a2a, #000000);
+   color: white;
+}
+.tagline2{
+    color: #5cc53c;
+}
+
+ .navbar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1030;
+ }
+.hero-section .content {
+        position: relative;
+        z-index: 2; 
+}
+
+
+
+
+
+
+@media (max-width: 768px){
+    .contaner{
+    position: relative;
+}
+.content{
+    position: absolute;
+    left: 30px;
+    top: 80px;
+}
+}
